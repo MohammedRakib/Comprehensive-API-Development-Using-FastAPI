@@ -3,6 +3,6 @@ from typing import Optional
 
 class Post(BaseModel):
     title: str
-    body: str
+    content: str
     published: bool = True
-    rating: Optional[int] = None
+    
